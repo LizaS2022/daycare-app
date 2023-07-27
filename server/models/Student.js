@@ -26,7 +26,7 @@ const studentSchema = new Schema({
     required: true,
   },
   zip_code: {
-    type: String,
+    type: Number,
     required: true,
   },
   gender: {
@@ -54,11 +54,11 @@ const studentSchema = new Schema({
     required: true,
   },
   phone_number1: {
-    type: Number,
+    type: String,
     required: true,
   },
   phone_number2: {
-    type: Number,
+    type: String,
   },
   email: {
     type: String,
